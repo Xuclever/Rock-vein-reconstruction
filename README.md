@@ -34,3 +34,11 @@ python binarization.py
 python crack_aco_reconstruction.py
 ```
 
+#### Example
+
+Input the imgs file from the example folder into the crack_aco_reconstruction.py code, and set the parameters as follows: "max_gap": 150, "min_gap": 10, "ant_count": 30, "max_iter": 50. Keep the remaining parameters unchanged.
+
+```python
+python crack_aco_reconstruction.py
+```
+
