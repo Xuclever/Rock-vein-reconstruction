@@ -1029,10 +1029,10 @@ RUN_CONFIG = {
         "binarize_threshold": 50,     # Binarisation threshold (0-255)
         "do_skeletonize": True,        # Whether to thin the input again
         "direction_window": 10,        # Number of traced pixels for local direction estimation
-        "max_gap": 100,                 # Maximum connection distance (pixels) modified
+        "max_gap": 150,                 # Maximum connection distance (pixels) modified
         "min_gap": 10,                  # Minimum connection distance (pixels) modified
         "max_angle_deg": 60,           # Direction angle tolerance (degrees)
-        "ant_count": 50,               # Number of ants modified
+        "ant_count": 30,               # Number of ants modified
         "max_iter": 50,                # Number of iterations modified
         "alpha": 1.0,                  # Pheromone weight
         "beta": 2.0,                   # Heuristic weight
